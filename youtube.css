@@ -1,7 +1,7 @@
 body {
 margin: 0;
 padding: 0;
-background-image: url('file://sdc-1/i.farah$/Homework/NiceBackground.jpeg');
+background-image: url('NiceBackground.jpeg');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center-center;
@@ -9,7 +9,7 @@ color: white;
 }
 a {
 position: relative;
-color: #F8F8FF;
+color: #f2f2f2;
 text-decoration: none;
 }
 a::after {
@@ -28,8 +28,9 @@ transition: transform 0.3s ease;
 a:hover::after {
 transform: scaleX(1);
 transform-origin: left;
+color: #66ccff;
 }
 a:visited {
-color: #66ccff;
+color: #f2f2f2;
 text-decoration: none;
 }
