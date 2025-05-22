@@ -9,7 +9,7 @@ color: white;
 }
 a {
 position: relative;
-color: #f2f2f2;
+color: #ebebeb;
 text-decoration: none;
 }
 a::after {
@@ -25,12 +25,14 @@ transform-origin: left;
 transform: scaleX(0);
 transition: transform 0.3s ease;
 }
+a:hover {
+  color: #66ccff !important;
+}
 a:hover::after {
 transform: scaleX(1);
 transform-origin: left;
-color: #66ccff;
 }
 a:visited {
-color: #f2f2f2;
+color: #ebebeb;
 text-decoration: none;
 }
